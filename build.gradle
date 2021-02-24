@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'io.vertx:vertx-core:4.0.2'
+    testCompile 'junit:junit:4.13.2'
+}
